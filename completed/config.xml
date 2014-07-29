@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Attention Sponge</name>
+
+    <description>
+        Specially designed to absorb the attention of those around them.
+    </description>
+
+    <author href="https://www.ArchmageEnterprises.com"
+			email="toddsellon@archmageenterprises.com">
+        Todd Sellon
+    </author>
+	
+	<!-- Include the 'Geolocation' plugin -->
+	<gap:plugin name="org.apache.cordova.geolocation" />
+	
+	<!-- Include the 'Capture' plugin -->
+	<gap:plugin name="org.apache.cordova.media-capture" />
+	
+	<!-- Include the 'Accelerometer' plugin -->
+	<gap:plugin name="org.apache.cordova.device-motion" />
+
+</widget>
